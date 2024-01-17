@@ -54,6 +54,7 @@
     margin: .25rem 0;
     font-size: .625rem;
     border-radius: 1rem;
+    text-transform: capitalize;
 }
 
 .type.fire {
@@ -130,110 +131,3 @@
 .steel { background-color: #b9b7cf; }
 .dragon { background-color: #6f38f6; }
 .fairy { background-color: #f9aec7; }
-
-.detailCard {
-    display: flex;
-    flex-direction: column;
-    margin: 1rem;
-    padding: 1rem;
-    border-radius: 1rem;
-    color: #FFF;
-    max-width: 450px;
-    width: 100%;
-    height: fit-content;
-}
-
-.nameAndNumber {
-    display: flex;
-    flex-direction: column;
-}
-.detailCard img {
-    margin: 0 auto;
-    margin-bottom: 1rem;
-    max-width: 100%;
-    height: 180px;
-    align-self: center;
-}
-
-.pokemonInfo .types {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.material-symbols-rounded {
-  margin-bottom: 1rem;
-}
-
-.material-symbols-rounded.gender {
-    font-size: 1rem;
-    margin: 0;
-}
-
-.material-symbols-rounded.male {
-    color: #7667ff;
-}
-
-.material-symbols-rounded.female {
-    color: #ff6767;
-}
-
-.nameAndNumber {
-    padding: 0 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nameAndNumber .name {
-    font-size: 2.5rem;
-}
-
-.nameAndNumber .number {
-    font-size: 1.5rem;
-}
-
-.detailCard .types {
-    display: flex;
-    flex-direction: row;
-    padding: 0 1rem;
-    margin-bottom: 1rem;
-}
-
-.detailCard .types .type {
-    margin-right: .5rem;
-}
-
-.detailCard .details {
-    background-color: #FFF;
-    color: #444444;
-    border-radius: 1rem;
-    padding: 0 2rem;
-    padding-bottom: 2rem;
-}
-
-.details ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.details h4 {
-    font-size: 1.625rem;
-}
-
-.detail {
-    margin-top: 2rem;
-}
-
-.detailItem {
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.detailItem .item {
-    color: #7a7a7a;
-}

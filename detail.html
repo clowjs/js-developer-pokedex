@@ -20,124 +20,16 @@
     <!-- Our CSS -->
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/pokedex.css">
+    <link rel="stylesheet" href="assets/css/detail-card.css">
     <title>Pokedex</title>
 </head>
 <body>
 
-
-
-    <section class="detailContent">
-
-        <section class="detailCard grass">
-
-                <div class="nagivation">
-                    <span class="material-symbols-rounded">
-                        arrow_back
-                    </span>
-                </div>
-
-                <div class="nameAndNumber">
-                    <span class="name">Bulbasaur</span>
-                    <span class="number">#001</span>
-                </div>
-
-                <ol class="types">
-                    <li class="type grass">Grass</li>
-                    <li class="type poison">Poison</li>
-                </ol>
-
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="Bulbasaur">
-        
-                <div class="details">
-
-                    <div class="detail">
-                        <h4>About</h4>
-                        <ul>
-                            <li class="detailItem">
-                                <span class="item">Species</span>
-                                <span>Seed</span>
-                            </li>
-                            <li class="detailItem">
-                                <span class="item">Height</span>
-                                <span>23.6" (0.70 cm)</span>
-                            </li>
-                            <li class="detailItem">
-                                <span class="item">Weight</span>
-                                <span>15.2 lbs (6.9 kg)</span>
-                            </li>
-                            <li class="detailItem">
-                                <span class="item">Abilities</span>
-                                <span>Overgrow, Chlorophyl</span>
-                            </li>
-                            
-                        </ul>
-                    </div>
-
-                    <div class="detail">
-                        <h4>Breeding</h4>
-                        <ul>
-                            <li class="detailItem">
-                                <span class="item">Gender</span>
-                                <span>
-                                    <span class="material-symbols-rounded gender male">male</span>87.5% 
-                                    <span class="material-symbols-rounded gender female">female</span>12.5%
-                                </span>
-                            </li>
-                            <li class="detailItem">
-                                <span class="item">Egg Groups</span>
-                                <span>Monster</span>
-                            </li>
-                            <li class="detailItem">
-                                <span class="item">Egg Cycle</span>
-                                <span>Grass</span>
-                            </li>                            
-                        </ul>
-                    </div>
-
-                    <div class="detail">
-                        <h4>Base Stats</h4>
-                        <ul>
-                            <li class="detailItem">
-                                <span class="item">HP</span>
-                                <span>45</span>
-                            </li>
-                            <li class="detailItem">
-                                <span class="item">Attack</span>
-                                <span>60</span>
-                            </li>
-                            <li class="detailItem">
-                                <span class="item">Defense</span>
-                                <span>48</span>
-                            </li>
-                            <li class="detailItem">
-                                <span class="item">Sp. Atk</span>
-                                <span>65</span>
-                            </li>
-                            <li class="detailItem">
-                                <span class="item">Sp. Def</span>
-                                <span>65</span>
-                            </li>
-                            <li class="detailItem">
-                                <span class="item">Speed</span>
-                                <span>45</span>
-                            </li>
-                            <li class="detailItem">
-                                <span class="item">Total</span>
-                                <span>317</span>
-                            </li>
-                            
-                        </ul>
-                    </div>
-
-                </div>
-
-        </section>
-
-    </section>
+    <section class="detailContent" id="detailContent"></section>
 
     <!-- Our JavaScript -->
     <script src="assets/js/pokemon-model.js"></script>
     <script src="assets/js/poke-api.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/detail-card.js"></script>
 </body>
 </html>
